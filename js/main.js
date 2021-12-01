@@ -19,4 +19,4 @@ const renderPage = list => {
     console.log(productsList);
     document.querySelector('.products').innerHTML = productsList.join('');
 };
-
+renderPage(products);
